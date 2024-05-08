@@ -1,4 +1,5 @@
 ÿþ
+cls
 
 @echo off
 
